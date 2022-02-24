@@ -1,11 +1,3 @@
-import dto.Gender
-import dto.Person
-import dto.collectByGender
-import dto.sortByNameOrBirthDate
-import util.FileIOUtil
-import java.io.File
-import java.time.LocalDate
-import java.time.format.DateTimeFormatter
 
 
 fun main(args: Array<String>) {
@@ -22,10 +14,5 @@ fun main(args: Array<String>) {
 //    //println(personList.collectByGender(Gender.FEMALE))
 //    FileIOUtil().writeToJsonFile(personList, "test")
 //    FileIOUtil().readFromJsonFile("test")
-//    println(personList.toString())
 
-
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
 }
