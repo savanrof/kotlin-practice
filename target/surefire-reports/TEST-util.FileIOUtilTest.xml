@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="util.FileIOUtilTest" time="8.513" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Kotlin\kotlin-practice\target\test-classes;D:\Kotlin\kotlin-practice\target\classes;C:\Users\CHI\.m2\repository\org\jetbrains\kotlin\kotlin-test-junit5\1.5.10\kotlin-test-junit5-1.5.10.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlin\kotlin-test\1.5.10\kotlin-test-1.5.10.jar;C:\Users\CHI\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\CHI\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\CHI\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\CHI\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\CHI\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\CHI\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.5.10\kotlin-stdlib-jdk8-1.5.10.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.5.10\kotlin-stdlib-1.5.10.jar;C:\Users\CHI\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.10\kotlin-stdlib-common-1.5.10.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.5.10\kotlin-stdlib-jdk7-1.5.10.jar;C:\Users\CHI\.m2\repository\org\json\json\20211205\json-20211205.jar;C:\Users\CHI\.m2\repository\io\kotest\kotest-assertions-core-jvm\5.1.0\kotest-assertions-core-jvm-5.1.0.jar;C:\Users\CHI\.m2\repository\io\kotest\kotest-assertions-shared-jvm\5.1.0\kotest-assertions-shared-jvm-5.1.0.jar;C:\Users\CHI\.m2\repository\io\github\java-diff-utils\java-diff-utils\4.11\java-diff-utils-4.11.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlinx\kotlinx-coroutines-jdk8\1.6.0\kotlinx-coroutines-jdk8-1.6.0.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlin\kotlin-reflect\1.6.10\kotlin-reflect-1.6.10.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlinx\kotlinx-coroutines-core-jvm\1.6.0\kotlinx-coroutines-core-jvm-1.6.0.jar;C:\Users\CHI\.m2\repository\io\kotest\kotest-common-jvm\5.1.0\kotest-common-jvm-5.1.0.jar;C:\Users\CHI\.m2\repository\io\kotest\kotest-assertions-api-jvm\5.1.0\kotest-assertions-api-jvm-5.1.0.jar;C:\Users\CHI\.m2\repository\io\mockk\mockk\1.12.2\mockk-1.12.2.jar;C:\Users\CHI\.m2\repository\io\mockk\mockk-dsl-jvm\1.12.2\mockk-dsl-jvm-1.12.2.jar;C:\Users\CHI\.m2\repository\io\mockk\mockk-dsl\1.12.2\mockk-dsl-1.12.2.jar;C:\Users\CHI\.m2\repository\io\mockk\mockk-common\1.12.2\mockk-common-1.12.2.jar;C:\Users\CHI\.m2\repository\io\mockk\mockk-agent-jvm\1.12.2\mockk-agent-jvm-1.12.2.jar;C:\Users\CHI\.m2\repository\io\mockk\mockk-agent-api\1.12.2\mockk-agent-api-1.12.2.jar;C:\Users\CHI\.m2\repository\io\mockk\mockk-agent-common\1.12.2\mockk-agent-common-1.12.2.jar;C:\Users\CHI\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\CHI\.m2\repository\net\bytebuddy\byte-buddy\1.12.5\byte-buddy-1.12.5.jar;C:\Users\CHI\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.5\byte-buddy-agent-1.12.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\CHI\AppData\Local\Temp\surefire13329021548235314819\surefirebooter9878255926715222796.jar C:\Users\CHI\AppData\Local\Temp\surefire13329021548235314819 2022-02-24T18-21-47_261-jvmRun1 surefire225635814601865712tmp surefire_011394959489729951445tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Kotlin\kotlin-practice\target\test-classes;D:\Kotlin\kotlin-practice\target\classes;C:\Users\CHI\.m2\repository\org\jetbrains\kotlin\kotlin-test-junit5\1.5.10\kotlin-test-junit5-1.5.10.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlin\kotlin-test\1.5.10\kotlin-test-1.5.10.jar;C:\Users\CHI\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\CHI\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\CHI\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\CHI\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\CHI\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\CHI\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.5.10\kotlin-stdlib-jdk8-1.5.10.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.5.10\kotlin-stdlib-1.5.10.jar;C:\Users\CHI\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.10\kotlin-stdlib-common-1.5.10.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.5.10\kotlin-stdlib-jdk7-1.5.10.jar;C:\Users\CHI\.m2\repository\org\json\json\20211205\json-20211205.jar;C:\Users\CHI\.m2\repository\io\kotest\kotest-assertions-core-jvm\5.1.0\kotest-assertions-core-jvm-5.1.0.jar;C:\Users\CHI\.m2\repository\io\kotest\kotest-assertions-shared-jvm\5.1.0\kotest-assertions-shared-jvm-5.1.0.jar;C:\Users\CHI\.m2\repository\io\github\java-diff-utils\java-diff-utils\4.11\java-diff-utils-4.11.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlinx\kotlinx-coroutines-jdk8\1.6.0\kotlinx-coroutines-jdk8-1.6.0.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlin\kotlin-reflect\1.6.10\kotlin-reflect-1.6.10.jar;C:\Users\CHI\.m2\repository\org\jetbrains\kotlinx\kotlinx-coroutines-core-jvm\1.6.0\kotlinx-coroutines-core-jvm-1.6.0.jar;C:\Users\CHI\.m2\repository\io\kotest\kotest-common-jvm\5.1.0\kotest-common-jvm-5.1.0.jar;C:\Users\CHI\.m2\repository\io\kotest\kotest-assertions-api-jvm\5.1.0\kotest-assertions-api-jvm-5.1.0.jar;C:\Users\CHI\.m2\repository\io\mockk\mockk\1.12.2\mockk-1.12.2.jar;C:\Users\CHI\.m2\repository\io\mockk\mockk-dsl-jvm\1.12.2\mockk-dsl-jvm-1.12.2.jar;C:\Users\CHI\.m2\repository\io\mockk\mockk-dsl\1.12.2\mockk-dsl-1.12.2.jar;C:\Users\CHI\.m2\repository\io\mockk\mockk-common\1.12.2\mockk-common-1.12.2.jar;C:\Users\CHI\.m2\repository\io\mockk\mockk-agent-jvm\1.12.2\mockk-agent-jvm-1.12.2.jar;C:\Users\CHI\.m2\repository\io\mockk\mockk-agent-api\1.12.2\mockk-agent-api-1.12.2.jar;C:\Users\CHI\.m2\repository\io\mockk\mockk-agent-common\1.12.2\mockk-agent-common-1.12.2.jar;C:\Users\CHI\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\CHI\.m2\repository\net\bytebuddy\byte-buddy\1.12.5\byte-buddy-1.12.5.jar;C:\Users\CHI\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.5\byte-buddy-agent-1.12.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\CHI"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Kotlin\kotlin-practice"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\CHI\AppData\Local\Temp\surefire13329021548235314819\surefirebooter9878255926715222796.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.1+13-LTS"/>
+    <property name="user.name" value="CHI"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\CHI\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\CHI\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="user.dir" value="D:\Kotlin\kotlin-practice"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\CHI\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\CHI\bin;C:\Users\CHI\AppData\Local\Programs\Python\Python38;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\DTS\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn;C:\Program Files\Git\cmd;C:\WINDOWS\System32\msg.exe;C:\apache\apache-maven-3.8.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs;C:\Users\CHI\AppData\Roaming\npm;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\sonar-scanner-4.6.2.2472-windows\bin;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\nodejs;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Users\CHI\AppData\Local\Microsoft\WindowsApps;C:\Users\CHI\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\CHI\AppData\Local\Microsoft\WindowsApps;C:\hadoop-2.7.3\bin;C:\Users\CHI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\CHI\AppData\Roaming\npm;C:\Users\CHI\AppData\Local\GitHubDesktop\bin;C:\Users\CHI\AppData\Local\Programs\Fiddler;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.1+13-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Test read json file" classname="util.FileIOUtilTest" time="5.332"/>
+  <testcase name="Test write json file" classname="util.FileIOUtilTest" time="0.167"/>
+</testsuite>
