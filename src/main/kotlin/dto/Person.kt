@@ -1,20 +1,25 @@
 package dto
 
+import util.AlgorithmUtil
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.util.UUID
 private val formatter: DateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
 
-fun List<Person>.findPersonById (id: String): Person? =
+fun MutableList<Person>.findPersonById (id: String): Person? =
     this.find { it.id == id }
 
-fun List<Person>.collectByGender (gender: Gender): List<Person> =
-    this.filter { it.gender == gender }
+fun MutableList<Person>.collectByGender (gender: Gender): MutableList<Person> =
+    this.filter { it.gender == gender }.toMutableList()
 
-fun List<Person>.sortByNameOrBirthDate(expr: String?): List<Person> = when(expr) {
-    "name" -> this.sortedWith(compareBy(Person::name))
-    "birthDate" -> this.sortedWith(compareBy(Person::birthDate))
-    else -> this
+fun MutableList<Person>.sortByNameOrBirthDate(expr: String?): MutableList<Person> {
+    if (expr == null) { this }
+    else {
+        var left = 0
+        var right = this.size - 1
+        AlgorithmUtil().quickSort(this, left, right, expr!!)
+    }
+    return this
 }
 
 data class Person(
